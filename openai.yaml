@@ -1,0 +1,17 @@
+name: geoskill-flood-inundation-modeling
+display_name: 洪水淹没模拟
+description: |
+  基于 DEM 的 Bathtub 静态洪水淹没模拟，支持水文连通性约束（flood-fill）。Static bathtub flood inundation modeling from DEM with optional hydrological connectivity constraint. 输出淹没范围/水深 GeoTIFF + 面积体积统计 JSON。
+version: 0.1.0
+author: Mavis
+entrypoint: geoskill-flood-inundation-modeling.py
+runtime: python>=3.9
+tags:
+  - ai
+  - analysis
+  - dem
+  - gis
+  - hydrology
+  - raster
+  - remote-sensing
+  - terrain
